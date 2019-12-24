@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="WEBLAB3:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fc2407a1-892f-448d-8f89-1f5514e9aaec" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="facelets" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Web-LAB3" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/web/main.xhtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/web/test.xhtml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1U0sUj8gfOFGUYOmIR70UEwsCFb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="weblab3" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.jscs" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.jscs" value="$PROJECT_DIR$" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.stylelint" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.20804597" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\stava\IdeaProjects\WEBLAB3\web\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.27">
+    <configuration name="graph.js" type="NodeJSConfigurationType" path-to-node="$USER_HOME$/Anaconda3/Lib/site-packages/notebook/static/components/codemirror/mode/javascript/javascript.js" nameIsGenerated="true" path-to-js-file="graph.js" working-dir="$PROJECT_DIR$/web/resources">
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat 9.0.27" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.27" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="WEBLAB3:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/WEBLAB3_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_WEBLAB3_2" />
+        <option name="HTTP_PORT" value="8082" />
+        <option name="JNDI_PORT" value="1095" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="39320" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="WEBLAB3:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_WEBLAB3" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="39320" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.graph.js" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.27" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.013921114" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc2407a1-892f-448d-8f89-1f5514e9aaec" name="Default Changelist" comment="" />
+      <created>1574504864786</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574504864786</updated>
+      <workItem from="1574504869010" duration="29447000" />
+      <workItem from="1574538810846" duration="5049000" />
+      <workItem from="1575548937861" duration="1172000" />
+      <workItem from="1575810505023" duration="12689000" />
+      <workItem from="1575836772912" duration="359000" />
+      <workItem from="1575905359892" duration="37875000" />
+      <workItem from="1576240124675" duration="366000" />
+      <workItem from="1576248781563" duration="123194000" />
+      <workItem from="1576958025367" duration="2362000" />
+      <workItem from="1577082548541" duration="34168000" />
+      <workItem from="1577183428447" duration="254000" />
+      <workItem from="1577183809583" duration="75000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="22" key="#Closure_Linter" timestamp="1575906381279">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#Closure_Linter/0.0.1366.728@0.0.1366.728" timestamp="1575906381279" />
+    <state x="275" y="22" key="#Inspections" timestamp="1575907060255">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1575907060255" />
+    <state x="275" y="22" key="#JSCS" timestamp="1575906376514">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#JSCS/0.0.1366.728@0.0.1366.728" timestamp="1575906376514" />
+    <state x="275" y="22" key="#JSHint" timestamp="1575906387217">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#JSHint/0.0.1366.728@0.0.1366.728" timestamp="1575906387217" />
+    <state x="275" y="22" key="#JSLint" timestamp="1575906512234">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#JSLint/0.0.1366.728@0.0.1366.728" timestamp="1575906512234" />
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577183895912">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1577183895912" />
+    <state x="432" y="200" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1576508869845">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="432" y="200" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1366.728@0.0.1366.728" timestamp="1576508869845" />
+    <state x="488" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1576438171161">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1576438171161" />
+    <state x="513" y="57" width="586" height="614" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1576575036778">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="513" y="57" width="586" height="614" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1366.728@0.0.1366.728" timestamp="1576575036778" />
+    <state x="413" y="118" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1576507522042">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="118" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1366.728@0.0.1366.728" timestamp="1576507522042" />
+    <state x="441" y="234" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1576958201417">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="441" y="234" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1576958201417" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1577126781621">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1577126781621" />
+    <state width="1275" height="6" key="GridCell.Tab.0.bottom" timestamp="1577183295065">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1275" height="6" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577183295065" />
+    <state width="1275" height="6" key="GridCell.Tab.0.center" timestamp="1577183295065">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1275" height="6" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1577183295065" />
+    <state width="1275" height="6" key="GridCell.Tab.0.left" timestamp="1577183295065">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1275" height="6" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1577183295065" />
+    <state width="1275" height="6" key="GridCell.Tab.0.right" timestamp="1577183295065">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1275" height="6" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1577183295065" />
+    <state width="1275" height="6" key="GridCell.Tab.1.bottom" timestamp="1577183295065">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1275" height="6" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577183295065" />
+    <state width="1275" height="6" key="GridCell.Tab.1.center" timestamp="1577183295065">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1275" height="6" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1577183295065" />
+    <state width="1275" height="6" key="GridCell.Tab.1.left" timestamp="1577183295065">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1275" height="6" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1577183295065" />
+    <state width="1275" height="6" key="GridCell.Tab.1.right" timestamp="1577183295065">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1275" height="6" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1577183295065" />
+    <state width="1275" height="6" key="GridCell.Tab.2.bottom" timestamp="1577183295065">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1275" height="6" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577183295065" />
+    <state width="1275" height="6" key="GridCell.Tab.2.center" timestamp="1577183295065">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1275" height="6" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1577183295065" />
+    <state width="1275" height="6" key="GridCell.Tab.2.left" timestamp="1577183295065">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1275" height="6" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1577183295065" />
+    <state width="1275" height="6" key="GridCell.Tab.2.right" timestamp="1577183295065">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1275" height="6" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1577183295065" />
+    <state width="1275" height="371" key="GridCell.Tab.3.bottom" timestamp="1576959208832">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1275" height="371" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576959208832" />
+    <state width="1275" height="371" key="GridCell.Tab.3.center" timestamp="1576959208832">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1275" height="371" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1576959208832" />
+    <state width="1275" height="371" key="GridCell.Tab.3.left" timestamp="1576959208831">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1275" height="371" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1576959208831" />
+    <state width="1275" height="371" key="GridCell.Tab.3.right" timestamp="1576959208832">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1275" height="371" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1576959208832" />
+    <state x="11" y="20" width="1040" height="708" key="SettingsEditor" timestamp="1577183930363">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="11" y="20" width="1040" height="708" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1577183930363" />
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1577082634525">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1577082634525" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1575983130269">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1575983130269" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$USER_HOME$/AppData/Local/Temp/Tmp_view/Пример 1/web/resources/canvas.js</url>
+          <line>105</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CollectionPoint.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

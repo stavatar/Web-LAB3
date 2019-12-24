@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Created by IntelliJ IDEA.
+  User: stava
+  Date: 23.11.2019
+  Time: 13:39
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--suppress ALL -->
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:c="http://java.sun.com/jsp/jstl/core">
+
+
+<h:head>
+    <title>Title</title>
+    <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"/>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+</h:head>
+<style type="text/css">
+    body {
+        background-color: hsl(190, 76%, 87%);
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+
+    }
+
+    div.container {
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        height: 90%;
+        border: 3px groove hsl(207, 64%, 48%);
+
+
+    }
+
+    .contaiers{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: left;
+        align-items: baseline;
+        align-content: space-between;
+    }
+    .button{text-decoration:none; text-align:center;
+        padding:7px 20px;
+        border:groove 4px #bfbfbf;
+        -webkit-border-radius:50px;
+        -moz-border-radius:50px;
+        border-radius: 50px;
+        font:14px Arial, Helvetica, sans-serif;
+        font-weight:bold;
+        color:#E5FFFF;
+        background-color:#3d484d;
+        background-image: -moz-linear-gradient(top, #3d484d 0%, #093447 100%);
+        background-image: -webkit-linear-gradient(top, #3d484d 0%, #093447 100%);
+        background-image: -o-linear-gradient(top, #3d484d 0%, #093447 100%);
+        background-image: -ms-linear-gradient(top, #3d484d 0% ,#093447 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#093447', endColorstr='#093447',GradientType=0 );
+        background-image: linear-gradient(top, #3d484d 0% ,#093447 100%);
+        -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+        -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;
+        box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+
+        -webkit-transition: all 0.11s ease;
+        -moz-transition:  all 0.11s ease;
+        -o-transition:  all 0.11s ease;
+        transition:  all 0.11s ease;}
+    .button.hover{
+                                         padding:4px 15px;
+                                         border:groove 4px #bfbfbf;
+                                         -webkit-border-radius:50px;
+                                         -moz-border-radius:50px;
+                                         border-radius: 50px;
+                                         font:14px Arial, Helvetica, sans-serif;
+                                         font-weight:bold;
+                                         color:#E5FFFF;
+                                         background-color:#5a7785;
+                                         background-image: -moz-linear-gradient(top, #5a7785 0%, #093447 100%);
+                                         background-image: -webkit-linear-gradient(top, #5a7785 0%, #093447 100%);
+                                         background-image: -o-linear-gradient(top, #5a7785 0%, #093447 100%);
+                                         background-image: -ms-linear-gradient(top, #5a7785 0% ,#093447 100%);
+                                         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#093447', endColorstr='#093447',GradientType=0 );
+                                         background-image: linear-gradient(top, #5a7785 0% ,#093447 100%);
+                                         -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+                                         -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;
+                                         box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+
+                                     }
+    .button.active{
+                                          padding:2px 10px;
+                                          border:groove 4px #1090c7;
+                                          -webkit-border-radius:50px;
+                                          -moz-border-radius:50px;
+                                          border-radius: 50px;
+                                          font:14px Arial, Helvetica, sans-serif;
+                                          font-weight:bold;
+                                          color:#E5FFFF;
+                                          background-color:#3d484d;
+                                          background-image: -moz-linear-gradient(top, #3d484d 0%, #093447 100%);
+                                          background-image: -webkit-linear-gradient(top, #3d484d 0%, #093447 100%);
+                                          background-image: -o-linear-gradient(top, #3d484d 0%, #093447 100%);
+                                          background-image: -ms-linear-gradient(top, #3d484d 0% ,#093447 100%);
+                                          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#093447', endColorstr='#093447',GradientType=0 );
+                                          background-image: linear-gradient(top, #3d484d 0% ,#093447 100%);
+                                          -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+                                          -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;
+                                          box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+
+                                      }
+    a
+    {
+        margin: 10px;
+    }
+
+
+    .short
+    {
+        width: 150px;
+        height: 0.8max-content;
+    }
+    .borderRight
+    {
+        height:550px;
+        margin-right: 10px;
+        border-right: 3px groove hsl(207, 64%, 48%);
+
+    }
+    .order-table-header
+    {
+        width: 150px;
+        text-align:center;
+        background:none repeat scroll 0 0 #E5E5E5;
+        border-bottom:1px solid #BBBBBB;
+        padding:16px;
+    }
+
+    .order-table-odd-row{
+        text-align:center;
+        background:none repeat scroll 0 0 #FFFFFFF;
+        border-top:1px solid #BBBBBB;
+    }
+
+    .order-table-even-row{
+        text-align:center;
+        background:none repeat scroll 0 0 #F9F9F9;
+        border-top:1px solid #BBBBBB;
+    }
+    .borderR
+    {
+
+    }
+    .enjoy-css {
+        display: inline-block;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        z-index: 0;
+        width: 74px;
+        cursor: progress;
+        margin: 3px;
+        padding: 16px;
+        overflow: hidden;
+        border: 2px double #e0e0e0;
+        -webkit-border-radius: 57px;
+        border-radius: 57px;
+        font: italic normal normal 20px/0 "Times New Roman", Times, serif;
+        color: rgba(255,255,255,1);
+        text-align: center;
+        -o-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+        letter-spacing: 4px;
+        white-space: pre;
+        background: #718d99;
+        -webkit-box-shadow: 0 0 4px 2px #798196 ;
+        box-shadow: 0 0 4px 2px #798196 ;
+        text-shadow: -1px 1px 6px rgba(255,255,255,1) ;
+        height: 60;
+    }
+    input {
+        display: inline-block;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        width: 40px;
+        height: 5px;
+        padding: 10px 20px;
+        border: 2px solid rgba(132,132,38,1);
+        -webkit-border-radius: 18px;
+        border-radius: 18px;
+        font: normal 16px/normal "Times New Roman", Times, serif;
+        color: rgba(0,142,198,1);
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        letter-spacing: 1px;
+        white-space: pre;
+        background: rgba(252,252,252,1);
+        -webkit-box-shadow: 0 0 0 2px rgba(66,66,66,1) inset;
+        box-shadow: 0 0 0 2px rgba(66,66,66,1) inset;
+        text-shadow: 1px 1px 0 rgba(255,255,255,0.66) ;
+        -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+        -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+        -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+        transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    }
+
+
+</style>
+<h:body>
+
+        <h:form  id="form" styleClass="contaiers" style=" width: 450px; border-right: 3px groove hsl(207, 64%, 48%);">
+            <h:panelGrid styleClass="contaiers borderRight" >
+
+            <h:outputText styleClass="enjoy-css"  value="X" ></h:outputText>
+                <br></br>
+                    <h:commandLink  styleClass="button" id="x1"   action="#{collectionPoint.addPoints(point)}" actionListener="#{collectionPoint.getXNewPoint}"  value="-5"/>
+                <br></br>
+                    <h:commandLink styleClass="button" id="x2" action="#{collectionPoint.addPoints(point)}" actionListener="#{collectionPoint.getXNewPoint}" value="-4" />
+                <br></br>
+                    <h:commandLink styleClass="button" id="x3" action="#{collectionPoint.addPoints(point)}" actionListener="#{collectionPoint.getXNewPoint}" value="-3" />
+                <br></br>
+                    <h:commandLink styleClass="button" id="x4" action="#{collectionPoint.addPoints(point)}"  actionListener="#{collectionPoint.getXNewPoint}" value="-2" />
+                <br></br>
+                   <h:commandLink styleClass="button" id="x5" action="#{collectionPoint.addPoints(point)}" actionListener="#{collectionPoint.getXNewPoint}" value="-1" />
+                <br></br>
+                    <h:commandLink styleClass="button" id="x6" action="#{collectionPoint.addPoints(point)}" actionListener="#{collectionPoint.getXNewPoint}" value="0" />
+                <br></br>
+                   <h:commandLink styleClass="button" id="x7" action="#{collectionPoint.addPoints(point)}"  actionListener="#{collectionPoint.getXNewPoint}" value="1" />
+                <br></br>
+                    <h:commandLink styleClass="button" id="x8" action="#{collectionPoint.addPoints(point)}" actionListener="#{collectionPoint.getXNewPoint}" value="2" />
+                <br></br>
+                    <h:commandLink styleClass="button" id="x9" action="#{collectionPoint.addPoints(point)}" actionListener="#{collectionPoint.getXNewPoint}" value="3" />
+                <br></br>
+                <h:inputHidden id="canvaX"   value="#{point.x}" ></h:inputHidden>
+            </h:panelGrid>
+            <div style="height:550px;margin: 10px;border-right: 3px groove hsl(207, 64%, 48%);">
+
+            <h:outputText styleClass="enjoy-css" value="Y"></h:outputText>
+                <br/><br/>
+            <h:inputText  id="Y" title="Y" size="3"  value="#{point.y}" ></h:inputText>
+                <h:outputText  styleClass="ql-color-red" id="Ymes"></h:outputText>
+                <br/><br/>
+            </div>
+        <div style="margin: 10px">
+            <h:outputText styleClass="enjoy-css"  value="R"></h:outputText>
+            <br/><br/>
+
+            <h:inputText  id="R" class="R" size="3" value="#{point.r}"  ></h:inputText>
+            <br/><br/>
+
+
+                <p:slider  id="Slider" for="form:R"  minValue="1" maxValue="4" step="0.25" />
+            <h:outputText id="Rmes"  styleClass="ql-color-red"></h:outputText>
+            <br/><br/>
+        </div>
+
+
+
+
+
+        </h:form>
+
+    <div style="">
+        <h:dataTable value="#{collectionPoint.points}" var="c"
+                     styleClass="order-table  "
+                     headerClass="order-table-header"
+                     rowClasses="order-table-odd-row,order-table-even-row"
+                     id="resultss"><h:column>
+            <f:facet name="header">
+                X
+            </f:facet>
+            #{c.x}
+        </h:column>
+            <h:column>
+                <f:facet name="header">
+                    Y
+                </f:facet>
+                #{c.y}
+            </h:column>
+            <h:column>
+                <f:facet name="header">
+                    R
+                </f:facet>
+                #{c.r}
+            </h:column>
+            <h:column>
+                <f:facet name="header">
+                    Answer
+                </f:facet>
+                #{c.flag}
+            </h:column>
+
+        </h:dataTable>
+    </div>
+
+        <div id="leftSide" style="border-left: 3px groove hsl(207, 64%, 48%); ">
+            <h:form id="canvaForm" onclick="" >
+
+                <canvas id="plot" width="300" height="300"   >
+                    <div id="canvas-wrapper" >
+                        #{collectionPoint.addPoints(p)}
+                        <c:forEach var="result" items="#{collectionPoint.points}">
+                            <div data-x="#{result.x}" data-y="#{result.y}" data-hit="#{result.flag}" data-radius="#{result.r}"></div>
+
+                        </c:forEach>
+                    </div>
+
+
+                </canvas>
+
+            </h:form>
+            <div id="results1"/>
+
+    </div>
+
+
+</h:body>
+<h:outputScript name="graph.js"/>
+<h:outputScript name="validation.js"/>
+</html>

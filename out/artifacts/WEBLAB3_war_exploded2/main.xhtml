@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Created by IntelliJ IDEA.
+  User: stava
+  Date: 23.11.2019
+  Time: 13:39
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--suppress ALL -->
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:c="http://java.sun.com/jsp/jstl/core">
+
+
+<h:head>
+    <title>Title</title>
+    <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"/>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+</h:head>
+<style type="text/css">
+    body {
+        background-color: hsl(190, 76%, 87%);
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+
+    }
+
+    div.container {
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        height: 90%;
+        border: 3px groove hsl(207, 64%, 48%);
+
+
+    }
+    a
+    {
+        text-decoration: none;
+        width: 250px;
+        height: 50px
+    }
+
+</style>
+<h:body>
+
+        <h:form id="form" styleClass="form" style="border-left-style: groove;border-right-style: double ">
+
+            <h:panelGrid >
+            <h:outputText value="X" ></h:outputText>
+
+                    <h:commandLink  styleClass="  " id="x1"   action="#{collectionPoint.addPoints(point)}" actionListener="#{collectionPoint.getXNewPoint}"  value="-5"/>
+                    <h:commandLink id="x2" action="#{collectionPoint.addPoints(point)}" actionListener="#{collectionPoint.getXNewPoint}" value="-4" />
+                    <h:commandLink id="x3" action="#{collectionPoint.addPoints(point)}" actionListener="#{collectionPoint.getXNewPoint}" value="-3" />
+                    <h:commandLink id="x4" action="#{collectionPoint.addPoints(point)}"  actionListener="#{collectionPoint.getXNewPoint}" value="-2" />
+                   <h:commandLink id="x5" action="#{collectionPoint.addPoints(point)}" actionListener="#{collectionPoint.getXNewPoint}" value="-1" />
+                    <h:commandLink id="x6" action="#{collectionPoint.addPoints(point)}" actionListener="#{collectionPoint.getXNewPoint}" value="0" />
+                    <h:commandLink id="x7" action="#{collectionPoint.addPoints(point)}"  actionListener="#{collectionPoint.getXNewPoint}" value="1" />
+                    <h:commandLink id="x8" action="#{collectionPoint.addPoints(point)}" actionListener="#{collectionPoint.getXNewPoint}" value="2" />
+                    <h:commandLink id="x9" action="#{collectionPoint.addPoints(point)}" actionListener="#{collectionPoint.getXNewPoint}" value="3" />
+
+                <h:inputHidden id="canvaX" value="#{point.x}" ></h:inputHidden>
+            <h:outputText value="Y"></h:outputText>
+            <h:inputText id="Y" title="Y" size="3"  value="#{point.y}" ></h:inputText>
+                <h:outputText id="Ymes"></h:outputText>
+            <h:outputText value="R"></h:outputText>
+                <h:inputText id="R" class="R" value="#{point.r}"  placeholder="(-5; 5)"></h:inputText>
+                <h:outputText id="Rmes" style="text-overline-color: red"></h:outputText>
+                <p:slider id="Slider" for="form:R"  minValue="1" maxValue="4" step="0.25" />
+
+
+
+
+            </h:panelGrid>
+            <h:outputText id="hiddenX" value="#{point.x}"/>
+            <h:outputText id="hiddenY" value="#{point.y}"/>
+            <h:outputText id="hiddenR" value="#{point.r}"/>
+        </h:form>
+
+    <div style="border-left-style: groove;border-right-style: double">
+        <h:dataTable value="#{collectionPoint.points}" var="c"
+                     styleClass="order-table"
+                     headerClass="order-table-header"
+                     rowClasses="order-table-odd-row,order-table-even-row"
+                     id="resultss"><h:column>
+            <f:facet name="header">
+                X
+            </f:facet>
+            #{c.x}
+        </h:column>
+            <h:column>
+                <f:facet name="header">
+                    Y
+                </f:facet>
+                #{c.y}
+            </h:column>
+            <h:column>
+                <f:facet name="header">
+                    R
+                </f:facet>
+                #{c.r}
+            </h:column>
+            <h:column>
+                <f:facet name="header">
+                    Answer
+                </f:facet>
+                #{c.flag}
+            </h:column>
+
+        </h:dataTable>
+    </div>
+
+        <div id="leftSide" style="border-left-style: groove;border-right-style: double ">
+            <h:form id="canvaForm"  onclick="">
+
+                <canvas id="plot" width="300" height="300"   >
+                    <div id="canvas-wrapper" >
+                        <c:forEach var="result" items="#{collectionPoint.points}">
+                            <div data-x="#{result.x}" data-y="#{result.y}" data-hit="#{result.flag}" data-radius="#{result.r}"></div>
+                        </c:forEach>
+                    </div>
+
+
+                </canvas>
+
+            </h:form>
+            <div id="infoR" class="infoR">You don't set R yet..</div>
+            <div id="results1"/>
+
+    </div>
+
+
+</h:body>
+<h:outputScript name="graph.js"/>
+<h:outputScript name="validation.js"/>
+</html>

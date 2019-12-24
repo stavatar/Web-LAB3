@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Created by IntelliJ IDEA.
+  User: stava
+  Date: 23.11.2019
+  Time: 13:29
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui" >
+
+<h:head>
+    <title>Лабораторная</title>
+</h:head>
+<style type="text/css">
+
+    body
+    {
+        background-color: hsl(190, 76%, 87%);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+    }
+    div.container
+    {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        height: 90%;
+        border: 3px groove hsl(207, 64%, 48%) ;
+    }
+
+</style>
+<h:body>
+    <div >
+        <h1 style="color:#B88909">Проверка попадания точки в график</h1>
+        <span style="margin-left: 90pt;color:#B88909"> Адамов Степан Сергеевич</span>
+        <span style="color: #B88909 ">  P3210</span>
+       <br></br>
+        <span style="color:#B88909;margin-left: 145pt" > Вариант - 21389</span>
+        <p style="margin-left: 145pt" class="logo l4"><strong>Текущее время</strong>: <span id="currentTime" /></p>
+    </div>
+  <br>
+
+
+  </br>
+    <h:form>
+    <h:commandButton  styleClass="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" action="toMain" value="Начать работу"   />
+    </h:form>
+</h:body>
+<h:outputScript name="clock.js"/>
+</html>
