@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Maven: com.mchange:c3p0:${c3p0.version}">
+    <CLASSES />
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/mchange/c3p0/${c3p0.version}/c3p0-${c3p0.version}-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/mchange/c3p0/${c3p0.version}/c3p0-${c3p0.version}-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
