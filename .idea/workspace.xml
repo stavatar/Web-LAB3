@@ -384,7 +384,7 @@
       <workItem from="1578975050369" duration="78000" />
       <workItem from="1578975369576" duration="64000" />
       <workItem from="1578975546947" duration="37326000" />
-      <workItem from="1579173273934" duration="919000" />
+      <workItem from="1579173273934" duration="920000" />
     </task>
     <servers />
   </component>
@@ -608,10 +608,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="420" y="140" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1/0.0.1366.728@0.0.1366.728" timestamp="1578999480140" />
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1578975546041">
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1579176039267">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1578975546041" />
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1579176039267" />
     <state x="391" y="268" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1577288686240">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
